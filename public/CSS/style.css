@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    padding: 7px;
+    color: white;
+    align-self: center;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: cadetblue;
+    height: 100px;
+}
+
+#weatherForm {
+    margin: auto;
+    width: 50%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#weatherForm input {
+    border: 0;
+    outline: 0;
+    border: 1px solid black;
+    padding: 15px;
+    width: 75%;
+    border-radius: 5px;
+}
+
+#weatherForm #btn {
+    border: 0;
+    outline: 0;
+    border: 1px solid black;
+    padding: 15px;
+    width: 16.5%;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+#weatherForm #btn:active {
+    transform: scale(0.97);
+}
+
+h2 {
+    font-weight: 900;
+    line-height: 1.7;
+}
+
+h2:nth-child(2) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
